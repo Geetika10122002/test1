@@ -1,0 +1,22 @@
+
+.container{
+    width:100%;
+    display: flex;
+}
+.child{
+    width:50%;
+}
+.child1{
+    background-color: aqua;
+}
+.child2{
+    background-color: aquamarine;
+}
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+    .child{
+        width:100%;
+    }
+}
